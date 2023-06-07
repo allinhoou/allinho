@@ -128,3 +128,15 @@ form label, form p{
 
     margin: 20px 0;
 }
+
+p{
+
+  color: blue;
+
+}
+
+form p{
+
+   color: red;
+
+}
