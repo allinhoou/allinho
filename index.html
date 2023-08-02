@@ -1,29 +1,53 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<title>Barbearia Alura</title>
-		<link rel="stylesheet" href="style.css">
+		<title>BarbeariaAlura</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="produtos.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
 		<header>
-			<h1 class="titulo-principal">Barbearia Alura</h1>
-		</header>
+			<div class="caixa">
+			  <h1><img src="logo.png" alt="cara de barba"></h1>
 	
-		<img id="banner" src="banner.jpg">
-		<div class="principal">
-			<h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
+	<nav>
+		<ul>
+			<li class="itens"><a href="index.html">Home</a></li>
+			<li class="itens"><a href="produtos.html">Produtos</a></li>
+			<li class="itens"><a href="contato.html">Contato</a></li>
+		</ul>
+	</nav>
+	
+		  </div>
+		</header>
+		<img class="banner" src="banner.jpg">
+
+	<main>
+		<section class="principal">
+			<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+			<img class="utensilios" src="utensilios.jpg" alt="utencilios de barba">
 	 
 			<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
 			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
 			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-		</div>
+			
+		</section>
 
-		<div class="beneficios">
-			<h3 class="titulo-centralizado">Benefícios</h3>
+		<section class="mapa">
+			<h3 class="titulo-principal">Nosso estabelecimento</h3>
+
+
+		</section>
+
+		<section class="beneficios">
+			<h3 class="titulo-principal">Benefícios</h3>
+			<p>nOSSO ESTABELECIMENTO ESTA LOCALIZADO NO CORACAO DA CIDADE</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117243.1493064783!2d-51.248163922931276!3d-23.321258008962765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb44a85ba19b79%3A0x8823647f6ae6c744!2sBlue%20Tree%20Premium%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1690985985396!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 			<ul>
 				<li class="itens">Atendimento aos Clientes</li>
@@ -31,10 +55,17 @@
 				<li class="itens">Localização</li>
 				<li class="itens">Profissionais Qualificados</li>
 			</ul>
+
 			<img src="beneficios.jpg" class="imagembeneficios">
-		</div>
+			<div class="video">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/w94KkPxGAVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	        </div>
+		
+		</section>
+	</main>
+		
 		<footer>
-			<img src="logo-branco.png" alt="logobranco">
+			<img src="logo-branco.png">
 			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
 		</footer>
 	</body>
